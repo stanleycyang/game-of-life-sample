@@ -9,7 +9,7 @@ We want to see how you think about programming and problem solving, independentl
 ## Evaluation Criteria (in order): 
 
 1. Code readability, cleanliness and architecture (are you organizing your code in a logical, readable, and maintainable format) 
-2. Solution Completeness (you found the right answer) 
+2. Solution completeness (you found the right answer) 
 
 ## Process: 
 
@@ -37,10 +37,8 @@ A cellular automata is a 2D grid of cells. Cells may be either empty or alive. Y
 
 Below is an example 4 x 4 grid containing three newborns, one adult, and one senior. 
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+![Example](https://github.com/stanleycyang/game-of-life-sample/blob/main/images/example.png?raw=true)
+
 
 ## Neighbors 
 
@@ -52,5 +50,20 @@ Note that edge cells have only 5 potential neighbors, and corners have only 3.
 
 In each generation, compute the new value for the grid by the following rules:
 
+![Ruleset](https://github.com/stanleycyang/game-of-life-sample/blob/main/images/ruleset.png?raw=true)
+
 ## Generation Example  
+
+![10x10](https://github.com/stanleycyang/game-of-life-sample/blob/main/images/generation-example.png?raw=true)
+
+- Three newborns are born near the pair of adults at (1,2) and (2,2). 
+- One of the adults has 2 neighbors and ages. The other has 5 and dies of overcrowding.
+- The newborn at (2,1) dies of overcrowding 
+- All the other newborns grow up to become adults. 
+
+## Question 
+
+If the following 10x10 grid is Generation 1, what is Generation 20? Provide your answer in any format you like so long as it’s readable. Here is a link to a markdown file with copy/pastable initial data and test cases 
+
+![10x10](https://github.com/stanleycyang/game-of-life-sample/blob/main/images/10-by-10.png?raw=true)
 
